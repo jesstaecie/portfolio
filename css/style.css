@@ -1,14 +1,14 @@
 body {
 	/*background-color: #e7e7e7 */
-	background-image: url("homeBg.jpg");
+	background-image: url("../img/homeBg.jpg");
 }
 
 h1 {
-	font-family:"RageItalic";
-	text-align:center;
-	margin-top:150px;
-	margin-bottom:6px;
-	font-size:190px;
+	font-family: "RageItalic";
+	text-align: center;
+	margin-top: 150px;
+	margin-bottom: 6px;
+	font-size: 190px;
 	color: #aeded2;
 }
 
@@ -17,4 +17,18 @@ h2{
 	text-align:center;
 	margin-top:auto;
 	color:#aeded2;
+}
+
+.bubbles {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.bubble {
+	padding: 40px 30px;
+	margin: 0px 60px;
+	border: 1px black solid;
+	border-radius: 100px;
+	background-color: lightblue;
 }
