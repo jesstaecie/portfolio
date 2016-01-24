@@ -6,8 +6,9 @@ body {
 h1 {
 	font-family: "RageItalic";
 	text-align: center;
-	margin-top: 150px;
-	margin-bottom: 6px;
+	padding: 0px;
+	margin-top: 120px;
+	margin-bottom: 0px;
 	font-size: 190px;
 	color: #aeded2;
 }
@@ -15,7 +16,9 @@ h1 {
 h2{
 	font-family:"OpenSans";
 	text-align:center;
-	margin-top:auto;
+	padding: 0px;
+	margin-top:0px;
+	margin-bottom: 60px;
 	color:#aeded2;
 }
 
@@ -23,12 +26,41 @@ h2{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+	text-align: center;
 }
 
 .bubble {
-	padding: 40px 30px;
-	margin: 0px 60px;
-	border: 1px black solid;
-	border-radius: 100px;
-	background-color: lightblue;
+	padding: 60px 50px;
+	margin: 50px 60px;
+	border: 3px white solid;
+	border-radius: 120px;
+	font-family: "RageItalic";
+	font-size: 30px;
+}
+
+.contact {
+	padding: 60px 40px;
+	margin: 50px 60px;
+	border: 5px white solid;
+	border-radius: 120px;
+	font-family: "RageItalic";
+	font-size: 30px;
+}
+
+.bubble-one {
+	background-color: #e6c079;
+}
+
+.bubble-two {
+	background-color: #afddd2;
+}
+
+.bubble-three {
+	background-color: #bebfc1;
+}
+
+.bubble-four {
+	background-color: #85868a;
+
+
 }
